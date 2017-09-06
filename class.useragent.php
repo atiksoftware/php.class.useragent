@@ -163,7 +163,7 @@
 					$os_platform = $value;
 				}
 			}
-			return "Unknown";
+			return $os_platform;
 		}
 
 		static function Language(){
